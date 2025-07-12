@@ -1,0 +1,166 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+/* 100% Transparent Navbar */
+/* Initial Glassy Navbar */
+.transparent-navbar {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+/* On Scroll Effect */
+.scrolled-navbar {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Brand */
+.brand-text {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Nav Links */
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+  color: #007bff !important;
+}
+
+/* Toggler Icon */
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22' /%3E%3C/svg%3E");
+}
+
+
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url('images/bgimg.png') center/cover no-repeat;
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+/* Highlighted text */
+.hero-section .highlight {
+  color: #ffd700;
+}
+
+/* Buttons */
+.hero-section .btn-outline-light {
+  border-color: #fff;
+  color: #fff;
+}
+
+.hero-section .btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Stats responsiveness */
+.hero-section .row > div h2 {
+  font-size: 2rem;
+}
+
+.hero-section .row > div p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+/* Why Choose Us Section */
+.why-choose-us {
+  background-color: #f9f9f9;
+}
+
+.feature-card {
+  background-color: white;
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.icon-box i {
+  display: inline-block;
+}
+.course-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.course-card .btn {
+  transition: all 0.2s ease-in-out;
+}
+
+.course-card .btn:hover {
+  background-color: #ffc107;
+  color: #000;
+}
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.25rem;
+}
+.testimonial-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.testimonial-card i.bi-star-fill {
+  font-size: 1rem;
+}
+
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.footer-section {
+  background-color: #1d1d1d;
+  font-size: 0.95rem;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #ffc107;
+  transition: 0.3s ease;
+}
+.eduverse-logo {
+  font-family: 'Pacifico', cursive;
+  color: #ffc107;
+  letter-spacing: 1px;
+}
